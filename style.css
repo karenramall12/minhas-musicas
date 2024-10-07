@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(255, 228, 196, 0.592);
+    color: rgb(18, 18, 18);
+    text-align: justify;
+
+}
+h1{
+    color: rgb(215, 125, 14);
+    border-radius: 2px;
+    text-align:center;
+    padding: 2px 20px 2px;
+    margin: auto;
+}
+p{
+    color: rgb(102, 58, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left ;
+    margin: 2px;
+    padding-left: 0%;
+}
+audio{
+    bottom: auto;
+    
+}
+div{
+    background-color: rgb(215, 125, 14);
+    text-align: center;
+    border: 0px;
+}
