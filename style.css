@@ -7,14 +7,14 @@ body{
 
 }
 h1{
-    color: rgb(215, 125, 14);
+    color: #d77d0e;
     border-radius: 2px;
     text-align:center;
     padding: 2px 20px 2px;
     margin: auto;
 }
 pre{
-    color: rgb(102, 58, 5);
+    color: #663a05;
     font-family: Arial, Helvetica, sans-serif;
     text-align:left ;
     margin: 2px;
@@ -22,10 +22,76 @@ pre{
 }
 audio{
     bottom: auto;
+   
     
 }
 div{
-    background-color: rgb(215, 125, 14);
+   
     text-align: center;
-    border: 0px;
+    margin-top: 0%;
+    
 }
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define uma fonte padrão */
+}
+
+nav {
+    background-color: #d87d0e33; /* Cor de fundo do menu */
+    padding: 5px 10px; /* Espaçamento interno */
+    font-size:15px;
+    color: #663a05;
+}
+
+.nav-menu {
+    list-style: none; /* Remove os marcadores da lista */
+    display: block; /* Exibe os itens em linha */
+    justify-content:center; /* Espaça os itens uniformemente */
+    margin: 0; /* Remove margens da lista */
+    padding: 0; /* Remove espaçamento interno da lista */
+}
+
+.nav-menu li {
+    margin: 0 5px; /* Espaçamento entre os itens */
+}
+
+.nav-menu a {
+    color:#d77d0e; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 5px 7px; /* Espaçamento interno dos links */
+    transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+.nav-menu a:hover {
+    background-color: #d77d0e; /* Cor de fundo ao passar o mouse */
+    border-radius:5px ; /* Cantos arredondados */
+    color: aliceblue;
+    
+}
+
+footer{
+    background-color: #663a05;
+    color: #FFEFDC;
+    margin: 4px;
+    text-align: center;
+    font-size:small;
+}
+
+ .voltar {
+    color: #d77d0e;
+    display: flex;
+    font-size: 16px;
+    pad: 10px 20px;
+    color: #d77d0e;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+ }
+ .voltar:hover{
+    background-color: #d77d0e; /* Cor de fundo ao passar o mouse */
+    border-radius:10px ; 
+    color: aliceblue;
+
+
+
+   
+ }
