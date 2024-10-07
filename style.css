@@ -12,19 +12,32 @@ h1{
     text-align:center;
     padding: 2px 20px 2px;
     margin: auto;
+    background-color: #d77d0e38;
 }
 pre{
     color: #663a05;
     font-family: Arial, Helvetica, sans-serif;
     text-align:left ;
-    margin: 2px;
     padding-left: 0%;
-}
-audio{
-    bottom: auto;
-   
+    max-width: 800px;
+    min-width: 400px;
+    text-align: left;
+    margin: 0px 5px;
+  
+ 
     
 }
+p{
+    color: #663a05;
+    text-align: center;
+    margin:0px 0px ;
+    background-color: #d77d0e38;
+    font-size: 15px;
+   
+}
+   
+    
+
 div{
    
     text-align: center;
@@ -36,22 +49,23 @@ body {
 }
 
 nav {
-    background-color: #d87d0e33; /* Cor de fundo do menu */
-    padding: 5px 10px; /* Espaçamento interno */
-    font-size:15px;
+    
+    padding: 0px 20px; /* Espaçamento interno */
     color: #663a05;
+    text-align: center;
 }
 
 .nav-menu {
     list-style: none; /* Remove os marcadores da lista */
-    display: block; /* Exibe os itens em linha */
+    display: contents; /* Exibe os itens em linha */
     justify-content:center; /* Espaça os itens uniformemente */
     margin: 0; /* Remove margens da lista */
-    padding: 0; /* Remove espaçamento interno da lista */
+    padding: 5px; /* Remove espaçamento interno da lista */
 }
 
 .nav-menu li {
-    margin: 0 5px; /* Espaçamento entre os itens */
+    
+        margin: 25px 5px;/* Espaçamento entre os itens */
 }
 
 .nav-menu a {
@@ -73,7 +87,9 @@ footer{
     color: #FFEFDC;
     margin: 4px;
     text-align: center;
-    font-size:small;
+    font-size: 15px;
+    padding-bottom: 2px;
+
 }
 
  .voltar {
@@ -84,7 +100,7 @@ footer{
     color: #d77d0e;
     align-items: center;
     border-radius: 5px;
-    justify-content: center;
+    justify-content:left;
  }
  .voltar:hover{
     background-color: #d77d0e; /* Cor de fundo ao passar o mouse */
