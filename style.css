@@ -102,3 +102,7 @@ footer{
     color: aliceblue;
   
  }
+ section.p{
+    background-color: var(--cor-rodape);
+    color: var(--cor-rodape-texto);
+ }
