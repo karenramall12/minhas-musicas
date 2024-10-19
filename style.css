@@ -1,108 +1,120 @@
 @charset "UTF-8";
 
-:root {
-    --cor-fundo: rgba(255, 228, 196, 0.592);
-    --cor-texto: #121212; 
-    --cor-titulo: #d77d0e;
-    --cor-link: #d77d0e;
-    --cor-link-hover: #ffd700; 
-    --cor-rodape: #663a05;
-    --cor-rodape-texto: #FFEFDC;}
-    
-body{
-    background-color:var(--cor-fundo);
-    color:var(--cor-texto);
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+@charset "UTF-8";
 
+:root {
+    --cor-fundo: white;
+    --cor-texto: #121212; 
+    --cor-titulo: #e98b18;
+    --cor-cabeça: #efece7f6;
+    --cor-footer:rgb(54, 31, 31);
+   
 }
+   *{
+    font-family:Arial, Helvetica, sans-serif;
+   }
+    header{
+        background-color: var(--cor-cabeça);
+        
+    }
+
+    audio{
+        width: 150px; /* Ajusta a largura do player */
+        margin: 2px 1px; /* Espaço em cima e embaixo */
+        height: 25px;
+
+    }
+    #karen{
+        text-align: center;
+        background-color: var(--cor-titulo);
+        color: var(--cor-cabeça);
+    }
 h1{
+    font-size: 2.5em;
     color:var(--cor-titulo);
     border-radius: 2px;
     text-align:center;
-    padding: 2px 20px 2px;
-    margin: auto;
-    background-color: #d77d0e38;
-}
-pre{
-    color:var(--cor-texto);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:left ;
-    padding-left: 0%;
-    max-width: 800px;
-    min-width: 400px;
-    text-align: left;
-    margin: 0px 5px;
-  
- 
+    padding-top: 5%;
+    margin: 0px;
     
 }
-p{
-    color: #663a05;
-    text-align: center;
-    margin:0px 0px ;
-    background-color: #d77d0e38;
+span{
+    color: var(--cor-titulo);
+    font-size: 1.5em;
+    margin: 1px  10px;
+    padding: 5px;
+    font-weight: bold;    
+}
+
+main{
+    background-color:var(--cor-fundo);
+    color:var(--cor-texto) ;
+    text-align: left;
+    margin:10px 10px ;
     font-size: 15px;
+  
+    
+    
    
 }
 nav {
-    
-    padding: 0px 20px; /* Espaçamento interno */
-    color: #663a05;
+    margin: 0px;
+    padding: 5px 20px; /* Espaçamento interno */
+    color:var(--cor-texto);
     text-align: center;
 }
 
 .nav-menu {
     list-style: none; /* Remove os marcadores da lista */
+    font-size: 1.5em;
     display: contents; /* Exibe os itens em linha */
     justify-content:center; /* Espaça os itens uniformemente */
-    margin: 0; /* Remove margens da lista */
-    padding: 5px; /* Remove espaçamento interno da lista */
+    margin:1px 2px; /* Remove margens da lista */
+    padding: 0px; /* Remove espaçamento interno da lista */
 }
 
 .nav-menu li {
     
-        padding: 14.5px 15px;/* Espaçamento entre os itens */
+        padding: 10px ;/* Espaçamento entre os itens */
 }
 
 .nav-menu a {
     color:#d77d0e; /* Cor do texto */
     text-decoration: none; /* Remove o sublinhado */
     padding: 5px 7px; /* Espaçamento interno dos links */
-    transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+    transition: background-color  0.3s; /* Transição suave para a mudança de cor */
 }
-
-.nav-menu a:hover {
-    background-color: #d77d0e; /* Cor de fundo ao passar o mouse */
-    border-radius:5px ; /* Cantos arredondados */
-    color: aliceblue;
-}
-footer{
-    background-color:var(--cor-rodape);
-    color:var(--cor-rodape-texto);
-    margin: 4px;
-    text-align: center;
-    font-size: 15px;
-    padding-bottom: 2px;
-
-}
-
  .voltar {
-    color: #d77d0e;
+    color:var(--cor-titulo);
     display: flex;
-    font-size: 16px;
-    padding: 10px 20px;
-    align-items: center;
-    border-radius: 5px;
-    justify-content:left;
+    font: size 1.5em;;
+    padding: 15px 5px;
+   
+   
  }
  .voltar:hover{
-    background-color: #d77d0e; /* Cor de fundo ao passar o mouse */
+    background-color:var(--cor-titulo); /* Cor de fundo ao passar o mouse */
     border-radius:10px ; 
-    color: aliceblue;
+    color: var(--cor-fundo);
   
  }
- section.p{
-    background-color: var(--cor-rodape);
-    color: var(--cor-rodape-texto);
+ .nav-menu a:hover {
+    background-color:var(--cor-titulo); /* Cor de fundo ao passar o mouse */
+    border-radius:5px ; /* Cantos arredondados */
+    color: var(--cor-fundo);
  }
+
+ footer{
+    background-color:var(--cor-titulo);
+    color:var(--cor-fundo);
+    text-align: center;
+    font-size: 1em;
+    padding:5px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+   
+}
+body{
+    margin: 0;
+}
