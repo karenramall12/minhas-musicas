@@ -3,32 +3,32 @@
 @charset "UTF-8";
 
 :root {
-    --cor-fundo: white;
-    --cor-texto: #121212; 
-    --cor-titulo: #e98b18;
-    --cor-cabeça: #efece7f6;
-    --cor-footer:rgb(54, 31, 31);
-   
+--cor-fundo: white;
+--cor-texto: #121212; 
+--cor-titulo: #e98b18;
+--cor-cabeça: #efece7f6;
+--cor-footer:rgb(54, 31, 31);
+
 }
-   *{
-    font-family:Arial, Helvetica, sans-serif;
-   }
-    header{
-        background-color: var(--cor-cabeça);
-        
-    }
+*{
+font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#efece7ce;
+    
+}
 
-    audio{
-        width: 150px; /* Ajusta a largura do player */
-        margin: 2px 1px; /* Espaço em cima e embaixo */
-        height: 25px;
+audio{
+    width: 150px; /* Ajusta a largura do player */
+    margin: 2px 1px; /* Espaço em cima e embaixo */
+    height: 25px;
 
-    }
-    #karen{
-        text-align: center;
-        background-color: var(--cor-titulo);
-        color: var(--cor-cabeça);
-    }
+}
+#karen{
+    text-align: center;
+    background-color: var(--cor-titulo);
+    color: var(--cor-cabeça);
+}
 h1{
     font-size: 2.5em;
     color:var(--cor-titulo);
@@ -36,6 +36,24 @@ h1{
     text-align:center;
     padding-top: 5%;
     margin: 0px;
+    
+}
+.imagem{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.imagem>p{
+    background-color: ;
+}
+section{
+    background-color:rgba(255, 255, 255, 0.481);
+    color:var(--cor-texto) ;
+    text-align: left;
+    font-size: 15px;
+  
+   
     
 }
 span{
@@ -47,12 +65,12 @@ span{
 }
 
 main{
-    background-color:var(--cor-fundo);
+    background-color:rgba(255, 255, 255, 0.727);
     color:var(--cor-texto) ;
     text-align: left;
-    margin:10px 10px ;
     font-size: 15px;
-  
+    margin: 33px 33pxpx 0px 47px;
+    padding: 16px 16px;
     
     
    
@@ -117,4 +135,5 @@ nav {
 }
 body{
     margin: 0;
+   
 }
