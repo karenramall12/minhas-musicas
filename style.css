@@ -38,36 +38,21 @@ h1{
     margin: 0px;
     
 }
-.imagem{
-    background-image: url(imagens/background002.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.imagem>p{
-    background-color: ;
-}
-section{
-    background-color:rgba(255, 255, 255, 0.481);
-    color:var(--cor-texto) ;
-    text-align: left;
-    font-size: 15px;
-  
+
    
-    
-}
+  
+
 span{
     color: var(--cor-titulo);
     font-size: 1.5em;
     margin: 1px  10px;
     padding: 5px;
-    font-weight: bold;    
+    font-weight: bold; 
 }
 
 main{
-    background-color:rgba(255, 255, 255, 0.727);
+    background-color:rgba(23, 23, 23, 0.484);
     color:var(--cor-texto) ;
-    text-align: left;
     font-size: 15px;
     margin: 33px 33pxpx 0px 47px;
     padding: 16px 16px;
@@ -80,7 +65,9 @@ nav {
     padding: 5px 20px; /* Espaçamento interno */
     color:var(--cor-texto);
     text-align: center;
+ 
 }
+
 
 .nav-menu {
     list-style: none; /* Remove os marcadores da lista */
@@ -135,5 +122,10 @@ nav {
 }
 body{
     margin: 0;
-   
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
 }
+   
