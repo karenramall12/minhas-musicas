@@ -112,7 +112,26 @@ nav {
 }
 
 
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
 
+main {
+    flex: 1; 
+}
+
+footer {
+    background-color: var(--cor-titulo);
+    color: var(--cor-fundo);
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 0;
+    width: 100%;
+}
 
 
 footer {
