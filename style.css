@@ -71,6 +71,7 @@ nav {
     margin: 0;
     padding: 10px 20px;
     text-align: center;
+    
 }
 
 .nav-menu {
@@ -78,6 +79,7 @@ nav {
     display: block;
     justify-content: space-between;
     gap: 15px;
+    font-size: 1.3em;
 }
 
 .nav-menu li {
@@ -131,15 +133,7 @@ footer {
     font-size: 1em;
     padding: 10px 0;
     width: 100%;
-}
-
-
-footer {
-    background-color: var(--cor-titulo);
-    color: var(--cor-fundo);
-    text-align: center;
-    font-size: 1em;
-    padding: 10px 0;
-    width: 100%;
     margin-top: auto;
 }
+
+
